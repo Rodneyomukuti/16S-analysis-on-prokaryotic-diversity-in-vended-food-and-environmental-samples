@@ -1,7 +1,7 @@
 # 16S-analysis-on-prokaryotic-diversity-in-vended-food-and-environmental-samples
 Sharon &amp; Rodney 16s analysis
 
-# Project Tittle
+# Project Title
 
 Prokaryotic diversity and potentially pathogenic bacteria in vended foods and environmental samples
 
