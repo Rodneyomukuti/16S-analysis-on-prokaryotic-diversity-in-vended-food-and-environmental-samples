@@ -40,5 +40,29 @@ We were tasked to reproduce the above paper and improve on a few aspects i.e
 
 # Methodology
 
-1. 
+1. Quality Control of the reads
+2. Bioinformatic analysis of the asequences using QIIME 2
+3. Statistical analysis using R programming language
+
+# Results
+1. QC
+MultiQC was performed and the results can accessed [here](https://hpc01.icipe.org/rstudio/files/sharod/data/results/multiqc/multiqc_report.html)
+The reads had so many duplications and overrepresented sequences due to high adapter content 
+
+2. QIIME
+Qiime Pipeline - MBBU
+
+Drawbacks:
+Failed to create a Manifest file
+Failed to read our Metadata file
+
+3. nf-core ampliseq pipeline
+nf-core ampliseq pipeline - github
+Drawbacks:
+Trimmed out a majority of the sequences as shown in the [multiqc report](https://hpc01.icipe.org/rstudio/files/sharod/data/results/multiqc/multiqc_report.html)
+
+# Challenges faced
+
+1. Poor sequence data
+2. Missing details on the pipelines used
 
